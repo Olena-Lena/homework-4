@@ -151,7 +151,10 @@ color: var(--secondary-color-font);}
 /*=======START HERO=======*/
 
 .hero {
-background: #2F303A;
+background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+  url("../img/hero.png");
+background-size: cover;
+background-color: #C4C4C4;
 padding-top: 200px;
 padding-bottom: 200px;}
 
