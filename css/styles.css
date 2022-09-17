@@ -146,6 +146,23 @@ color: var(--secondary-color-font);}
 .contact-number:focus 
 {color: var(--color-accent);}
 
+.mail-svg {
+fill: var(--secondary-color-font);
+}
+
+.tel-svg {
+fill: var(--secondary-color-font);
+}
+
+.mail-svg:hover,
+.mail-svg:focus {
+  fill: var(--color-accent);
+}
+
+.tel-svg:hover,
+.tel-svg:focus {
+  fill: var(--color-accent);
+}
 /*=======END HEADER=======*/
 
 /*=======START HERO=======*/
@@ -202,6 +219,11 @@ cursor: pointer;}
 
 /*.benefits {background:#E5E5E5;}*/
 
+.clock-svg {
+fill: #F5F4FA;
+border:#F5F4FA;
+border-radius: 4px;}
+
 .benefits-list {display: flex;}
 
 .benefits-items:not(:last-child) {
@@ -238,7 +260,10 @@ font-family: var(--main-font-family);
   color: var(--secondary-color-font);
 }
 
-.text-team {font-family: var(--main-font-family);
+.text-team {
+  margin-bottom: 16px;
+
+  font-family: var(--main-font-family);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -296,8 +321,41 @@ margin-left: 30px;
 background: var(--secondary-color-accent);
 padding-top: 30px;
 padding-bottom: 30px;
+padding-left: 32px;
+padding-right: 32px;
 border-radius: 0px 0px 4px 4px;
 }
+
+.team-items-social {
+display: flex;
+justify-content: center;
+justify-content: space-between;
+}
+
+.social-items-icon {
+fill: #AFB1B8;
+} 
+
+.social-items-icon:hover,
+.social-items-icon:focus {
+fill: #FFFFFF;
+}
+
+.social-items {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 44px;
+height: 44px;
+background-color: #FFFFFF;
+border-radius: 50%;
+}
+
+.social-items:hover,
+.social-items:focus { 
+background-color: var(--color-accent);
+fill: #FFFFFF}
+
 
 /*=======END SECTION COMMAND=======*/
 
