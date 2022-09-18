@@ -147,11 +147,11 @@ color: var(--secondary-color-font);}
 {color: var(--color-accent);}
 
 .mail-svg {
-fill: var(--secondary-color-font);
+fill: #757575;
 }
 
 .tel-svg {
-fill: var(--secondary-color-font);
+fill: #757575;
 }
 
 .mail-svg:hover,
@@ -216,13 +216,6 @@ cursor: pointer;}
 /*=======END HERO=======*/
 
 /*=======SECTION BENEFITS=======*/
-
-/*.benefits {background:#E5E5E5;}*/
-
-.clock-svg {
-fill: #F5F4FA;
-border:#F5F4FA;
-border-radius: 4px;}
 
 .benefits-list {display: flex;}
 
@@ -356,7 +349,6 @@ border-radius: 50%;
 background-color: var(--color-accent);
 fill: #FFFFFF}
 
-
 /*=======END SECTION COMMAND=======*/
 
 /*=======FOOTER=======*/
@@ -382,9 +374,68 @@ line-height: 1.71;
 color: var(--secondary-color-accent);}
 
 .section-footer {
+display: flex;
 background: #2F303A;
 }
 
+.social-footer {
+display: flex;
+justify-content: center;
+align-content: center;
+width: 44px;
+height: 44px;
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+}
+
+.social-footer-icon {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.footer-social-item {
+display: flex;
+justify-content: left;
+}
+
+.text-footer {
+  margin-bottom: 20px;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  
+  color: var(--secondary-color-accent);
+}
+
+.footer-social {
+display: block;
+padding-top: 72px;
+}
+
+.footer-address {
+  margin-bottom: 10px;
+  }
+  
+  .footer-contact {
+  margin-bottom: 10px;
+  }
+  
+  .conteiner-footer {
+  padding-right: 0px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin-right: 70px;
+  margin-left: 200px;
+  }
+  
+  .logo-footer {
+  margin-right: 0px;
+  margin-bottom: 20px;
+  }
 /*======= END FOOTER=======*/
 
 /*=======PORTFOLIO PADGE=======*/
@@ -451,23 +502,4 @@ margin-bottom: 20px;
 .conteiner-example {
 padding: 20px 24px;
 border: 1px solid #EEEEEE;
-}
-
-.footer-address {
-margin-bottom: 10px;
-}
-
-.footer-contact {
-margin-bottom: 10px;
-}
-
-.conteiner-footer {
-padding-right: 0px;
-padding-bottom: 60px;
-padding-top: 60px;
-}
-
-.logo-footer {
-margin-right: 0px;
-margin-bottom: 20px;
 }
