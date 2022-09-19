@@ -50,6 +50,17 @@ margin-right: auto;}
 padding-top: 94px;
 padding-bottom: 94px;}
 
+.visyally-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0px;
+overflow: hidden;
+border: 0;
+clip: rect(0 0 0 0);
+}
+
 /*=======HEADER=======*/
 
 .header {
@@ -317,6 +328,7 @@ padding-bottom: 30px;
 padding-left: 32px;
 padding-right: 32px;
 border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-items-social {
@@ -351,6 +363,31 @@ fill: #FFFFFF}
 
 /*=======END SECTION COMMAND=======*/
 
+/*=======CLIENT=======*/
+
+.client {
+display: flex;
+justify-content:center;
+gap: 30px;
+fill: #AFB1B8;
+}
+
+.client-items :hover,
+.client-items :focus {
+fill: var(--color-accent);
+}
+
+.client-list {
+box-sizing: border-box;
+
+position: absolute;
+width: 170px;
+height: 92px;
+left: 215px;
+
+border: 1px solid #AFB1B8;
+border-radius: 4px;}
+
 /*=======FOOTER=======*/
 
 .footer-logo {
@@ -380,18 +417,28 @@ background: #2F303A;
 
 .social-footer {
 display: flex;
+align-items: center;
 justify-content: center;
-align-content: center;
+margin-right: 10px;
 width: 44px;
 height: 44px;
 background-color: rgba(255, 255, 255, 0.1);
 border-radius: 50%;
 }
 
+.social-footer :hover,
+.social-footer :focus {
+background-color: var(--color-accent);
+}
+
 .social-footer-icon {
-  display: flex;
   justify-content: center;
-  justify-content: space-between;
+  align-items: center;
+}
+
+.social-footer-icon :hover,
+.social-footer-icon :focus {
+fill: #EEEEEE;
 }
 
 .footer-social-item {
