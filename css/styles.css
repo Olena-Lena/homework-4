@@ -180,7 +180,7 @@ fill: #757575;
 
 .hero {
 background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-  url("../img/hero.png");
+  url("../img/hero.jpg");
 background-size: cover;
 background-color: #C4C4C4;
 padding-top: 200px;
@@ -284,6 +284,10 @@ font-family: var(--main-font-family);
   
   color: var(--basic-color-font);}
 
+  .antenna-svg {
+    background-color:#F5F4FA;
+  }
+
 /*======= END SECTION BENEFITS=======*/
 
 /*=======SECTION FIELD=======*/
@@ -375,6 +379,11 @@ fill: #AFB1B8;
 .client-items :hover,
 .client-items :focus {
 fill: var(--color-accent);
+}
+
+.client-items {
+background-color: #AFB1B8;
+background-position: center;
 }
 
 .client-list {
