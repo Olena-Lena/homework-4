@@ -288,6 +288,18 @@ font-family: var(--main-font-family);
     background-color:#F5F4FA;
   }
 
+.benefits-items-svg {
+display: flex;
+justify-content: center;
+align-items: center;
+border: 4px solid#F5F4FA;
+background-color:#F5F4FA;
+width: 270px;
+height: 120px;
+border-radius: 4px;
+margin-bottom: 30px;
+}
+
 /*======= END SECTION BENEFITS=======*/
 
 /*=======SECTION FIELD=======*/
@@ -381,21 +393,20 @@ fill: #AFB1B8;
 fill: var(--color-accent);
 }
 
-.client-items {
-background-color: #AFB1B8;
-background-position: center;
-}
-
-.client-list {
-box-sizing: border-box;
-
-position: absolute;
+.client-items-logo {
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid#AFB1B8;
+border-radius: 4px;
 width: 170px;
 height: 92px;
-left: 215px;
+}
 
-border: 1px solid #AFB1B8;
-border-radius: 4px;}
+.client-items :hover,
+.client-items:focus {
+border: var(--color-accent);
+}
 
 /*=======FOOTER=======*/
 
