@@ -64,8 +64,6 @@ clip: rect(0 0 0 0);
 /*=======HEADER=======*/
 
 .header {
-/*padding-top: 24px;
-padding-bottom: 25px;*/
 height: 80px;;
 border: 1px solid #ECECEC;
 }
@@ -415,8 +413,8 @@ fill: #AFB1B8;
   padding-right: 32px;
   border-radius: 4px;
 }
-.client-items :hover,
-.client-items :focus {
+.client-items:hover,
+.client-items:focus {
 fill: var(--color-accent);
 }
 
@@ -427,7 +425,7 @@ width: 170px;
 height: 92px;
 }
 
-.client-items :hover,
+.client-items:hover,
 .client-items:focus {
 border: var(--color-accent);
 }
@@ -596,6 +594,6 @@ border: 1px solid #EEEEEE;
 display: block;
 }
 
-.work-example :hover,
-.work-example :focus {
+.work-example:hover,
+.work-example:focus {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
