@@ -161,7 +161,7 @@ color: var(--secondary-color-font);}
 .mail-svg {
 margin-right: 10px;
 align-items: center;
-fill: #757575;
+fill: currentColor;
 }
 
 
@@ -174,7 +174,7 @@ fill: #2196F3;
 .tel-svg {
 margin-right: 10px;
 align-items: center;
-fill: #757575;
+fill: currentColor;
 }
 
 .mail-svg:hover,
@@ -368,7 +368,7 @@ justify-content: space-between;
 }
 
 .social-items-icon {
-fill: #AFB1B8;
+fill: currentColor;
 } 
 
 .social-items-icon:hover,
@@ -384,6 +384,7 @@ width: 44px;
 height: 44px;
 background-color: #FFFFFF;
 border-radius: 50%;
+color:#AFB1B8;
 }
 
 .social-items:hover,
@@ -406,7 +407,8 @@ fill: #AFB1B8;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: #AFB1B8;
+  color: currentColor;
+  border: currentColor;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 32px;
@@ -463,13 +465,10 @@ padding-top: 60px;
 padding-bottom: 60px;
 }
 
-.footer-social {
-
-}
-
 .footer-logo-addres {
 margin-right: 70px;
 }
+
 .footer-social-item {
 display: flex;
 justify-content: left;
@@ -593,6 +592,10 @@ padding: 20px 24px;
 border: 1px solid #EEEEEE;
 }
 
-.example-work :hover,
-.example-work :focus {
+.work-example {
+display: block;
+}
+
+.work-example :hover,
+.work-example :focus {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
